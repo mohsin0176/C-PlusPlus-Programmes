@@ -14,21 +14,21 @@ public:
     }
     Distance (int ft,float in)
     {
-        feet=ft;
-        inches=in;
+         feet=ft;
+         inches=in;
     }
-    void getDist();
-    void showDist();
-    void addDist(Distance,Distance);
+    int getDist();
+    int showDist();
+    int addDist(Distance,Distance);
 };
 
-void Distance :: showDist()
+int Distance :: showDist()
 {
     cout<<feet<<"\'-"<<inches<<"\"";
 }
-void addDist(Distance dd1,Distance dd2)
+int addDist(Distance dd1,Distance dd2)
 {
-    feet=dd1.feet+dd2.feet;
+   int  feet=dd1.feet+dd2.feet;
     inches=dd1.inches+dd2.inches;
     if(inches>=12.0)
     {
@@ -36,7 +36,7 @@ void addDist(Distance dd1,Distance dd2)
         feet++;
     }
 }
-void main()
+int main()
 {
 
     clscr();
@@ -51,4 +51,5 @@ void main()
     d3.addDist(d1,d2);
     d3.showDist();
     getch();
+    return 0;
 }
