@@ -17,7 +17,7 @@ int main()
     for(i=0;i<SIZE;i++)
     {
         cin>>b1[i].name;
-        cin>>b1[i].age;
+        cin>>b1[i].page;
         cin>>b1[i].price;
     }
     for(i=0;i<SIZE;i++)
