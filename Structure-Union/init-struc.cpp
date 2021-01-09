@@ -1,7 +1,7 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-struct distance
+struct Distance
 {
     int feet;
     float inches;
@@ -9,8 +9,8 @@ struct distance
 };
 int main()
 {
-    distance d1={15,6.5};
-    distance d2,d3;
+    Distance d1={15,6.5};
+    Distance d2,d3;
     d2.feet=d1.feet;
     d2.inches=d1.inches;
     d3=d1;
