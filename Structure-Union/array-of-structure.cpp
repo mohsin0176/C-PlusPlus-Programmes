@@ -18,4 +18,5 @@ void main()
     {
         cout<<d[i].feet<<d[i].inches;
     }
+
 }
