@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+using namespace std;
 void fun1();
 void fun2();
 #pragma startup fun1

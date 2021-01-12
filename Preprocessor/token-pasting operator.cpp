@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+using namespace std;
 #define concat(a,b)a##b
 int main()
 {
