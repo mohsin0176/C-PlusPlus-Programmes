@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+using  namespace std;
 #define INDIA 1
 #define USA 1
 #ifdef (defined INDIA)
