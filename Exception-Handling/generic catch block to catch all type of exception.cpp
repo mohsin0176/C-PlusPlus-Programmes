@@ -16,7 +16,7 @@ int test(int x)
     {
         throw 1.0;
     }
-    cout<<"End of try-Block";
+    cout<<"End of try-Block"<<endl;
     }
     catch(...)
     {

@@ -12,7 +12,7 @@ void divide(double x,double y)
         }
         else
         {
-            cout<<x/y;
+            cout<<x/y<<endl;
         }
     }
     catch(double)

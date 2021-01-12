@@ -3,7 +3,7 @@
 using namespace std;
 int divide(int x,int y,int z)
 {
-    cout<<"Inside Divide";
+    cout<<"Inside Divide"<<endl;
     if((x-y)!=0)
     {
         int res=z/(x-y);

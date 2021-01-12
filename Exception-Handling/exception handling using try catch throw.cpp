@@ -10,7 +10,7 @@ int main()
     {
         if(c !=0)
         {
-            cout<<a/c;
+            cout<<a/c<<endl;
         }
         else
         {

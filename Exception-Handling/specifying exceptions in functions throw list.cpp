@@ -15,7 +15,7 @@ void test(int x)throw(char,int,double)
     {
         throw 1.0;
     }
-    cout<<"End of Try Block";
+    cout<<"End of Try Block"<<endl;
 }
 int main()
 {

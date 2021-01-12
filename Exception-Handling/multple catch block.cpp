@@ -25,7 +25,7 @@ void test(int x)
     }
     catch(int i)
     {
-        cerr<<"Caught an int";
+        cerr<<"Caught an int"<<endl;
     }
     catch(double d)
     {
