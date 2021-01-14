@@ -3,22 +3,34 @@
 using namespace std;
 int main()
 {
-    int a=10,b=20,c=30;
-    int *p[3],*t;
+    int a[]={10,20,30,40,50,60};
+    int *p;
     int i;
-    p[0]=&a;
-    p[1]=&b;
-    p[2]=&c;
-    for(i=0;i<3;i++)
+    p=&a[0];
+    for(i=0;i<5;i++)
     {
-        cout<<*p[i];
+        cout<<a[i];
     }
-    t=p[0];
-    p[0]=p[2];
-    p[2]=t;
-for(i=0;i<3;i++)
+    for(i=0;i<5;i++)
     {
-        cout<<*p[i];
+        cout<<i[a];
+    }
+    for(i=0;i<5;i++)
+    {
+        cout<<*(a+i);
+    }
+    for(i=0;i<5;i++)
+    {
+        cout<<*(p+i);
+
+    }
+    for(i=0;i<5;i++)
+    {
+        cout<<p[i];
+    }
+    for(i=0;i<5;i++)
+    {
+        cout<<*p++;
     }
     return 0;
 }
